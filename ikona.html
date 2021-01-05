@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            background: #e0c59c;
+        }
+
+
+        .container {
+            margin: 4em;
+            text-align: center;
+        }
+
+        .loader {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            margin: 50px 700px;
+            animation: posouvani 1s linear infinite;
+        }
+        @keyframes posouvani{
+            0%{
+                transform: translate(0);
+              
+
+            }
+            25%{
+               transform: translate(150px); 
+            }
+            50%{
+                transform: translate(210px);
+            }
+            75%{
+                transform: translate(260px);
+            }
+            100%{
+                transform: translate(300px);
+            }
+        
+        
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Animace</h1>
+        <h2>Loading icona</h2>
+        <div class="loader"></div>
+    </div>
+</body>
+
+</html>

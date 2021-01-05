@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Texturina:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/vystava.style.css">
+    <title>DOG EXHIBITION</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">Výstava psů</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#showcase" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section-about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section-carousel" class="nav-link">Galery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section-cards" class="nav-link">References</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section-contact" class="nav-link">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <section id="showcase" class="d-flex justify-content-center align-items-center">
+        <div id="overlay"></div>
+        <div id="header" class="container text-black text-center">
+            <h1 class="display-1 mb-0">Výstava psů</h1>
+            <h3 class="display-4">Pražské výstaviště</h3>
+            <p data-toggle="tooltip" data-placement="top" title="Klikněte pro rezervaci vstupenek">
+                <button id="vstup" class="btn btn-lg btn-primary px-5" data-toggle="modal"
+                    data-target="#vstupenky">Vstupenky</button></p>
+          
+        </div>
+        
+    </section>
+
+    <section id="section-about">
+        <div class="container text-center mt-5">
+            <h2>Zajímavé informace</h2>
+            <div class="row">
+                <div class="col-md-4 p-3">
+                    <img src="images/1.jpg" alt="" class="img-fluid d-none d-md-inline">
+                    <h3>Rasy psů</h3>
+                    <p id="obr1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, velit reprehenderit,
+                        laborum labore ducimus culpa sapiente hic sunt, optio autem cumque commodi atque. Odio,
+                        expedita.</p-lead>
+                </div>
+                <div class="col-md-4 p-3">
+                    <img src="images/1.png" alt="" class="img-fluid d-none d-md-inline">
+                    <h3>Krmení</h3>
+                    <p id="obr2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, velit reprehenderit,
+                        laborum labore ducimus culpa sapiente hic sunt, optio autem cumque commodi atque. Odio,
+                        expedita.</p-lead>
+                </div>
+                <div class="col-md-4 p-3">
+                    <img src="images/2.jpg" alt="" class="img-fluid d-none d-md-inline">
+                    <h3>Očkování</h3>
+                    <p id="obr3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, velit reprehenderit,
+                        laborum labore ducimus culpa sapiente hic sunt, optio autem cumque commodi atque. Odio,
+                        expedita.</p-lead>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-carousel">
+        <div class="container mt-5 text-center">
+            <h3>Fotogalerie</h3>
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <div id="mainCar" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/kar2.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/kar5.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/kar3.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/kar1.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <a href="#mainCar" class="carousel-control-prev" data-slide="prev" role="button">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a href="#mainCar" class="carousel-control-next" data-slide="next" role="button">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="section-cards">
+        <div class="container text-center mt-2 p-3">
+            <h3>Ohlasy návštěvníků</h3>
+            <div class="row m-2">
+                <div class="col-md-3 p-3">
+                    <div class="card">
+                        <img src="images/winter.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title text-primary"><i
+                                    class="fas fa-quote-left fa-2x text-primary mb-3"></i></h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+                                incidunt excepturi ullam enim. Reprehenderit, exercitationem.</p>
+                            <footer class="blockquote-footer">Tomáš Černý</footer>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-3">
+                    <div class="card">
+                        <img src="images/winter.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title text-primary"><i
+                                    class="fas fa-quote-left fa-2x text-primary mb-3"></i></h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+                                incidunt excepturi ullam enim. Reprehenderit, exercitationem.</p>
+                            <footer class="blockquote-footer">Karel Novotný </footer>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-3">
+                    <div class="card">
+                        <img src="images/winter.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title text-primary"><i
+                                    class="fas fa-quote-left fa-2x text-primary mb-3"></i></h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+                                incidunt excepturi ullam enim. Reprehenderit, exercitationem.</p>
+                            <footer class="blockquote-footer">Linda Bílá</footer>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-3">
+                    <div class="card">
+                        <img src="images/winter.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title text-primary"><i
+                                    class="fas fa-quote-left fa-2x text-primary mb-3"></i></h2>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+                                incidunt excepturi ullam enim. Reprehenderit, exercitationem.</p>
+                            <footer class="blockquote-footer">Tamara Konečná</footer>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-secondary" id="section-contact">
+        <div class="container text-center text-white py-5">
+            <p class="lead">Kontaktujte nás</p>
+            <div class="row justify-content-center">
+                <div class="col10 col-sm-8 col-md-6 col-lg-4">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Zpráva</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Odeslat</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mapa mb-0 mt-2">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558.8777543512506!2d14.42756181585814!3d50.10729506991191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94cc2e70e7a7%3A0x2f63e11bcac58f82!2zVsO9c3RhdmnFoXTEmyBQcmFoYSBIb2xlxaFvdmljZQ!5e0!3m2!1scs!2scz!4v1606476608674!5m2!1scs!2scz"
+                width="100%" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="section-about" class="bg-secondary">
+        <div class="container text-center mb-0 mt-0">
+            <h2>Kontakt a odkazy</h2>
+            <div class="row">
+                <div class="col-md-4 p-3">
+                    <a href="" class="nav-link text-white">Email: vystava@seznam.cz</a>
+                </div>
+                <div class="col-md-4 p-3">
+                    <a href="" class="nav-link text-white">Tel: 8767687867</a>
+
+                </div>
+                <div class="col-md-4 p-3">
+                    <a href="" class="nav-link text-white">Adresa: Pražská 8 Praha</a>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 p-2"><a href="https://www.facebook.com/" class="nav-link text-white">Facebook <i
+                            class="fab fa-facebook-square"></i></a>
+                </div>
+                <div class="col-md-3 p-2"><a href="https://twitter.com/" class="nav-link text-white">Twitter <i
+                            class="fab fa-twitter-square"></i></a>
+                </div>
+                <div class="col-md-3 p-2"><a href="https://www.youtube.com/" class="nav-link text-white">YouTube <i
+                            class="fab fa-youtube"></i></a>
+                </div>
+                <div class="col-md-3 p-2"><a href="https://www.instagram.com/" class="nav-link text-white">Instagram <i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <div class="modal" id="vstupenky" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Rezervace vstupenek</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="jmeno@domena.cz">
+                        </div>
+                        <div class="form-group">
+                            <label for="adults">Počet vstupenek</label>
+                            <select id="adults" class="form-control">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="request">Poznámka:</label>
+                            <textarea id="request" rows="5" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Potvrdit</button>
+                    <button class="btn btn-secondary" data-dismiss="modal">Zavřít</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            var scroll = new SmoothScroll('a[href*="section-"]');
+        });
+    </script>
+
+</body>
+
+</html>

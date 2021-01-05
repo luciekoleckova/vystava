@@ -1,0 +1,125 @@
+body {
+    font-family: "Raleway", sans-serif; 
+    background-color: #f8e5bb;
+}
+
+.navbar {
+    font-weight: 100;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+
+    .navbar-brand h3 {
+        font-weight: 100;
+    }
+
+    .nav-item {
+        font-size: 1.4rem;
+    }
+
+    .nav-link:hover {
+        transition: border 0.2s;
+        border-bottom: 1px solid white;
+    }
+    .sticky {
+        position: fixed;
+       
+      }
+}
+
+#section-about img{
+    height: 200px;
+}
+#showcase {
+    background: url(../images/dogs.png) bottom center / cover no-repeat;
+    min-height: 750px;
+    position: relative;
+
+    #header {
+        z-index: 2;
+    }
+    
+    h1 {
+        font-family: "Questrial", sans-serif;
+        line-height: 1;
+    }
+    #book {
+        font-size: 1.5rem;
+        border-radius: 2rem;
+    }
+}
+
+#section-cards {
+    i {
+        opacity: 0.4;
+    }
+}
+
+#footer {
+    font-weight: 100;
+}
+#obr1{
+    font-family: "Texturina";
+}
+#obr2{
+    font-family: "Goldman";
+}
+#obr3{
+    font-family: "Pacifico";
+}
+
+#cudel {
+    
+    position: relative;                    
+    overflow: hidden;                  
+}
+
+#cudel::before {
+   content: 'Animace';
+   position: absolute;
+   top: 0;
+   left: 0;                        
+   background-color: black;
+    color: white;
+   width: 100%;
+   height: 100%;                        
+    transform: scale(6);
+  opacity: 0;
+  display: flex;
+    align-items: center;
+    justify-content: center;           
+    overflow: hidden;     
+    transition: all 0.5s;   
+       
+}
+
+#cudel:hover::before {
+    transform: scale(1);   
+    opacity:1;   
+    overflow: hidden;       
+}
+
+
+
+
+
+
+@media(max-width: 768px){
+    .navbar {
+        background: #1f1f1f;
+        .nav-link:hover {
+            border-bottom: none;
+        }
+    }
+    #showcase {
+        min-height: 500px;
+        h1 {
+            font-size: 4rem;
+        }
+        h3 {
+            font-size: 2rem;
+        }
+    }
+} 
